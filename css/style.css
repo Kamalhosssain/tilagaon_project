@@ -1,0 +1,198 @@
+/*font-family start*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap')
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap')
+/*font-family end*/
+
+/*common css start*/
+body{
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    padding-top: 100px;
+}
+/*common css end*/
+
+/*header start*/
+
+header {
+
+    background-color: #72dddd;
+   
+    border: 3px solid red;
+}
+.logo_img{}
+.logo_img img{}
+.book{
+    margin-left: 80px;
+}
+.book a{
+text-decoration: none;
+color: white;
+font-weight: 700;
+}
+
+.menu{}
+
+.menu ul{}
+.menu ul li{}
+.menu ul li a{
+   font-weight: 700; 
+}
+.menu ul li:last-child a{}
+
+/*header end*/
+
+/*slick slider start*/
+
+.banner {
+    background-color: #0b1617;
+    padding: 130px 0 30px;
+ 
+}
+.warraper{
+    overflow: hidden;
+}
+.c_button {
+    margin: 50px 0 0px;
+    width: 130px;
+    overflow: hidden;
+      position: fixed;
+    top: 160px;
+    left: 30px;
+    right: 0;
+   
+}
+.c_button a {
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+}
+.warraper{
+    margin: 100px 0;
+}
+.img{
+       padding: 0 10px;
+       position: relative;
+       left: 0px;
+       top: 0px;
+       z-index: -1;  
+      
+}
+.b_h1 {
+    margin: 60px 0 0;
+    color: white;
+}
+/*slick slider end*/
+
+/*service start*/
+.service {
+    margin: 50px 0 80px;
+}
+.r_h1 {
+    border-radius: 10px 90px 0px 90px;
+    background-color: darkred;
+    margin: 50px 0 100px;
+}
+.s_text{}
+.r_h3 {
+    margin: 50px 0 30px;
+}
+.r_p {
+    line-height: 25px;
+   
+}
+.s_right{
+    float: right;
+}
+.s_left{
+    float: left;
+}
+
+/*service end*/
+
+/*resrot start*/
+.resorts {
+    margin: 80px 0 100px;
+}
+.r_tittle {
+    font-size: 36px;
+    margin: 30px 0 50px;
+    background-color: lightblue;
+    border-radius: 10px 90px 0 90px;
+    height: 50px;
+    
+}
+.cus_button {
+    height: 50px;
+    width: 150px;
+    position: absolute;
+    top: 300px;
+    left: 250px;
+    right: 0px;
+}
+.box{
+    box-shadow: rgba(25, 25, 25, 0.04) 0 0 1px 0, rgba(0, 0, 0, 0.1) 0 3px 4px 0;
+    color: #008000;
+    cursor: pointer;
+}
+.box:hover{
+    background-color: #AFE6C3;
+    transform: scale(1.05);
+}
+.resort_img{
+    
+}
+/*resort end*/
+/*footer start*/
+footer{
+    background-color: #282A3A;
+    color: white;
+
+      .f_tittle {
+        padding: 50px 0 50px 30px;
+    }
+    .f_img{
+        
+    }
+
+.t_p{
+    padding: 20px 0 20px;
+}
+.f_p{
+    font-size: 28px;
+    padding-left: 20px;
+
+}
+.f_link{
+    float: left;
+    padding: 50px 0 35px;
+}
+.f_link ul{}
+.f_link ul li {
+    list-style: none;
+
+}
+.f_link ul li a{
+    text-decoration: none;
+    color: white;
+}
+.f_link ul li:last-child a{
+    margin-right: 0;
+}
+.icon{
+    font-size: 30px;
+
+}
+.list-inline-item:not(:last-child) {
+    margin-right: 15px;
+}
+.s_form{
+    margin-bottom: 80px;
+}
+.c_form{
+    background-color: #343231;
+}
+.f_button{
+    background-color: #6D1600;
+}
+/*footer end*/

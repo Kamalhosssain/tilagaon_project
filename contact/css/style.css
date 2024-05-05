@@ -1,0 +1,26 @@
+.maps {
+    margin: 200px 0 80px;
+}
+.c_maps {}
+.map_text {
+    margin-top: 100px;
+}
+.map_tittle{}
+.map_tittle span a{
+	text-decoration: none;
+}
+.map_left{
+	    float: left;
+}
+.map_rihgt{
+	    float: right;
+}
+.addreess a{
+	text-decoration: none;
+	color: black;
+	font-weight: 600;
+}
+.icon{
+	margin-right: 10px;
+}
+.c_iframe{}

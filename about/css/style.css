@@ -1,0 +1,54 @@
+header {
+
+    background-color: #72dddd;
+   
+    border: 3px solid red;
+}
+.logo{
+	float: left;
+}
+.logo_img{}
+.logo_img img{}
+.book{
+    margin-left: 80px;
+}
+.book a{
+text-decoration: none;
+color: white;
+font-weight: 700;
+}
+
+.menu{}
+
+.menu ul{}
+.menu ul li{}
+.menu ul li a{
+   font-weight: 700; 
+}
+.menu ul li:last-child a{}
+
+/*header end*/
+
+/*about start*/
+.about{
+    margin: 200px 0 100px;
+}
+.sec_left{
+    float: left;
+}
+.sec_right{
+    float: right;
+    margin-top: 100px;
+}
+.abt_sec {
+   
+}
+.abt_img {
+    
+}
+.abt_img img{}
+.abt_text {
+    margin-left: 50px;
+}
+.abt_h2{}
+.abt_p{}
